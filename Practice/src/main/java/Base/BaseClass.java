@@ -93,10 +93,9 @@ public class BaseClass {
         pg = new LoginPage(driver);
     }
 
-   @AfterClass
-    public void Close() {
-        if (driver != null) {
-          driver.quit();
-       }
+  // @AfterClass
+  //  public void Close() {
+    //    if (driver != null) {
+   //       driver.quit();
+      // }
   }
-}

@@ -5,12 +5,11 @@
     <listener class-name="Utils.TestListener"/>
   </listeners>
   <test thread-count="2" parallel="tests" name="LoginTest(failed)">
-    <parameter name="browser" value="safari"/>
+    <parameter name="browser" value="edge"/>
     <classes>
       <class name="Tests.LoginTest">
         <methods>
           <include name="TestCase1"/>
-          <include name="Close"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- Tests.LoginTest -->
