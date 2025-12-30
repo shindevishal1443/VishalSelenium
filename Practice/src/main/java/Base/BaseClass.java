@@ -40,7 +40,7 @@ public class BaseClass {
 	    try {
 	        File src = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
 
-	        String path = "C:\\Users\\visha\\eclipse-workspace\\Practice\\Screenshots\\"
+	        String path = "C:\\Users\\visha\\git\\VishalSelenium\\Practice\\Screenshots\\"
 	                + screenshotname + "_" + System.currentTimeMillis() + ".png";
 
 	        File dest = new File(path);
