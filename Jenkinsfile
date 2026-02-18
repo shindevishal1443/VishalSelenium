@@ -1,4 +1,4 @@
-Rahul Patil, Now
+ Now
 pipeline {
     agent any
 
